@@ -15,7 +15,7 @@ export default function AutoLogoSlider() {
   return (
     <div className="w-full max-w-7xl mx-auto overflow-hidden py-6  md:mb-20">
       <div className="relative">
-        <div className="flex w-max animate-scroll gap-24">
+        <div className="flex w-max animate-scroll gap-5 md:gap-24">
           {[...logos, ...logos].map((logo, i) => (
             <div
               key={i}
@@ -24,9 +24,9 @@ export default function AutoLogoSlider() {
               <Image
                 src={logo}
                 alt="brand"
-                width={124}
+                width={120}
                 height={40}
-                className="object-contain grayscale hover:grayscale-0 transition"
+                className=" w-16 md:w-30 md:h-10   object-contain grayscale hover:grayscale-0 transition"
               />
             </div>
           ))}

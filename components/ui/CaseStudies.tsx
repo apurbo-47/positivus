@@ -16,11 +16,11 @@ const data = [
 const CaseStudies = () => {
   return (
     <div className="max-w-6xl mx-auto mb-10 md:mb-32 md:p-0 p-5">
-      <div className=" flex gap-5 md:gap-10 ">
-        <h1 className="text-2xl md:text-[40px] font-medium rounded-lg bg-main-color px-2 border border-main-color">
+      <div className=" flex  md:flex-row flex-col gap-5 md:gap-10 ">
+        <h1 className="text-2xl md:text-[40px] font-medium rounded-lg bg-main-color px-2 border border-main-color text-center">
           Case Studies
         </h1>
-        <p className="max-w-lg text-xs md:text-lg">
+        <p className="max-w-lg text-xs md:text-lg text-center">
           Explore Real-Life Examples of Our Proven Digital Marketing Success
           through Our Case Studies
         </p>

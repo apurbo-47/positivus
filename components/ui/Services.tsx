@@ -44,11 +44,11 @@ const cards = [
 const Services = () => {
   return (
     <div className="max-w-6xl mx-auto mb-10 md:mb-30 md:p-0 p-5">
-      <div className=" flex gap-5 md:gap-10 ">
-        <h1 className="text-2xl md:text-[40px] font-medium rounded-lg bg-main-color px-2 border border-main-color">
+      <div className=" flex  md:flex-row flex-col gap-5 md:gap-10 ">
+        <h1 className="text-2xl md:text-[40px] font-medium rounded-lg bg-main-color px-2 border border-main-color text-center">
           Services
         </h1>
-        <p className="max-w-xl text-xs md:text-lg">
+        <p className="max-w-xl text-xs md:text-lg text-center">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
         </p>
