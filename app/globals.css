@@ -2,21 +2,37 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --main-color: #b9ff66;
+  --secondary-color: #191a23;
+  --grey-color: #f3f3f3;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-main-color: var(--main-color);
+  --color-secondary-color: var(--secondary-color);
+  --color-grey-color: var(--grey-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@component {
+  .main-container {
+    @apply max-w-7xl mx-auto p-5;
   }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
 }
 
 body {
