@@ -48,7 +48,7 @@ export default function ContactForm() {
                 />
               </div>
 
-              <button className="px-6 py-3 rounded-full bg-secondary-color text-white cursor-pointer">
+              <button className="px-6 py-3 rounded-2xl w-full bg-secondary-color text-white cursor-pointer">
                 Send Message
               </button>
             </form>
